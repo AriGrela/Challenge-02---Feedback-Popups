@@ -73,8 +73,8 @@ flex-direction:row;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid gray;
-    box-shadow: 0px 2px 0px gray;
+    border: 1px solid rgba(21, 26,65, .2);
+    box-shadow: 0px 2px 5px gray;
     cursor: pointer;
 }
 
@@ -114,7 +114,8 @@ flex-direction:row;
     height: 90px;
     position: relative;
     padding: 10px;
-    border-radius: 50%;
+    border-radius: 20%;
+    border: 1px solid rgba(21, 26,65, .2);
     cursor: pointer;
     
 }
@@ -150,10 +151,10 @@ hr {
     font-size: 14px;
     box-shadow: 0px 3px 5px gray;
     transition: all 0.5s;
-    border: 1px solid gray;
+    border: 1px solid rgba(21, 26,65, .2);
     top: -1px;
     position: relative;
-    box-shadow: 0px 2px 0px gray;
+    box-shadow: 0px 2px 5px gray;
 }
 
 .boton1:hover {
