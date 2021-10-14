@@ -1,0 +1,202 @@
+* {
+    font-size: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, bold;
+    
+}
+
+body {
+    background-color:#dadde1
+}
+
+
+.boxgeneral {
+
+color: lightblue;
+background: white;
+width: 491px;
+height: 460px;
+padding: 1px;
+margin: auto ;
+display: flex;
+justify-content: center;
+
+flex-direction: column;
+border-radius: 25px;
+margin-top: 60px;
+box-shadow: 0px 3px 5px gray;
+}
+
+.x {
+    border-radius: 80%;
+    width: 30px;
+    height: 30px;
+    padding: 1px;
+
+    background: #fff;
+    border: 1px solid grey;
+    color: grey;
+    text-align: center;
+    font: 20px 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, bold;
+    position:relative;
+    top: 0px;
+    left: 410px;
+    cursor: pointer;
+
+}
+
+.Letrasoporte {
+    color: #151A41;
+    padding-inline: 120px;
+    position:relative;
+    left: -34px;
+    top: -10px;
+    font-size: 16px;
+    
+}
+
+.ordencajitas {
+    display: flex;
+justify-content: center;
+align-items: center;
+flex-direction:row;
+
+}
+
+.cajita1, .cajita2, .cajita3, .cajita4, .cajita5 {
+    color: black;
+    background:white;
+    width: 48px;
+    height: 40px;
+    margin: 5px;
+    padding: 3px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid gray;
+    box-shadow: 0px 2px 0px gray;
+    cursor: pointer;
+}
+
+
+a {
+    color:black;
+}
+
+
+p {
+    color:black;
+
+}
+
+.ordensatis {
+    display: flex;
+justify-content: center;
+align-items: center;
+flex-direction:row;
+}
+
+.in {
+
+    padding-right: 145px;
+    padding-top: 2px;
+    font-size: 13px;
+}
+
+.sat {
+    padding-top: 2px;
+    font-size: 13px;
+}
+
+.checkboxgrande {
+
+    width: 22px;
+    height: 90px;
+    position: relative;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    
+}
+
+.ordencheckbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:row;
+    position: relative;
+    right: 65px;
+    bottom: 10px;
+    padding: 10pt;
+    
+}
+
+hr {
+    width:65%;
+    color: lightgrey;
+    position:relative;
+    bottom: 25px;
+}
+
+.boton1{
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 15px 10px;
+    text-decoration: none;
+    margin: 10px 85px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+    box-shadow: 0px 3px 5px gray;
+    transition: all 0.5s;
+    border: 1px solid gray;
+    top: -1px;
+    position: relative;
+    box-shadow: 0px 2px 0px gray;
+}
+
+.boton1:hover {
+    background-color: #FF0099;
+    color: white;
+}
+
+.cajita1:hover , .cajita2:hover, .cajita3:hover, .cajita4:hover, .cajita5:hover {
+
+    background-color: #FF0099;
+    color: white;
+    
+}
+
+.cajita1:hover a {
+
+    color: white;
+}
+
+.cajita2:hover a {
+
+    color: white;
+}
+
+.cajita3:hover a {
+
+    color: white;
+}
+
+.cajita4:hover a {
+
+    color: white;
+}
+
+.cajita5:hover a {
+
+    color: white;
+}
+
+.terminos {
+
+    font-size: 14px;
+    position: relative;
+    left: 7px;
+    top: -1px;
+}
